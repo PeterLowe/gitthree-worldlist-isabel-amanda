@@ -53,8 +53,44 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
+
 		}
-	}	
+
+		std::cout << "Pick a letter from A to B or Z to Z" << std::endl; 
+		std::cin >> letter;
+		if (letter < 'B' || letter > 'Z')
+		{
+			if (letter < 'b' || letter > 'z')
+			{
+				std::cout << "You need to select a letter from B to Z" << std::endl;
+				return 0;
+			}
+		}
+		if (letter == 'b' || letter == 'B') //Written by Isabel
+		{
+			if (region == 1)
+			{
+				std::cout << "There are no regions in Americas that start with B" << std::endl;
+			}
+			if (region == 2)
+			{
+				std::cout << "Belgium, Bulgaria in Europe" << std::endl;
+			}
+			if (region == 3)
+			{
+				std::cout << "Benin, Botswana in Africa" << std::endl;
+			}
+			if (region == 4)
+			{
+				std::cout << "Bangladesh, Bhutan in Asia" << std::endl;
+			}
+			if (region == 5)
+			{
+				std::cout << "Barbados, Bahamas in the rest of the world" << std::endl;
+			}
+
+		}
+		
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
