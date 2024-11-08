@@ -1,7 +1,7 @@
 // program to find countries in Pete's World
-// date November 2022
+// date November 2024
 // author Pete Lowe
-// add your name here
+// add your name here: Isabel Gunning
 //  or here
 // estimated time 120 minutes
 // actual time ??
