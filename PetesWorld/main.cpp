@@ -2,7 +2,7 @@
 // date November 2024
 // author Pete Lowe
 // add your name here: Isabel Gunning
-//  or here
+//  or here: Amanda Andrite
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
